@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T17:45:31 EDT" name="Suite" finished-at="2023-07-15T17:45:31 EDT" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T17:45:31 EDT" name="Test" finished-at="2023-07-15T17:45:31 EDT" duration-ms="45">
+      <class name="demotests.TestA">
+        <test-method signature="testA1()[pri:0, instance:demotests.TestA@51e69659]" started-at="2023-07-15T17:45:31 EDT" name="testA1" finished-at="2023-07-15T17:45:31 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA1 -->
+        <test-method signature="testA2()[pri:0, instance:demotests.TestA@51e69659]" started-at="2023-07-15T17:45:31 EDT" name="testA2" finished-at="2023-07-15T17:45:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method signature="testA3()[pri:0, instance:demotests.TestA@51e69659]" started-at="2023-07-15T17:45:31 EDT" name="testA3" finished-at="2023-07-15T17:45:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+      </class> <!-- demotests.TestA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

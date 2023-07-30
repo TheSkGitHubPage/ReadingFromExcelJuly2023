@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.*;
 
 public class ReadFromExcel {
 
@@ -13,7 +13,8 @@ public class ReadFromExcel {
 
 		// Open the Excel workbook
 
-		FileInputStream fis = new FileInputStream("src\\main\\java\\testdata\\January income expense sheet..xlsx");
+		String excelFilePath = "src\\main\\java\\testdata\\January income expense sheet..xlsx";
+		FileInputStream fis = new FileInputStream(excelFilePath);
 
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
